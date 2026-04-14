@@ -12,7 +12,7 @@ Este projeto foi construído como requisito prático para a disciplina de **Fáb
 ## ⚙️ Instalação e Execução
 
 ```bash
-git clone [https://github.com/Eduardo-Malta-Pereira/rcl-car-landing-page.git](https://github.com/Eduardo-Malta-Pereira/rcl-car-landing-page.git)
+git clone https://github.com/Eduardo-Malta-Pereira/rcl-car-landing-page.git
 cd rcl-car-landing-page
 npm install
 npm run tauri dev
