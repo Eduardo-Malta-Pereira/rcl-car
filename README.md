@@ -1,16 +1,18 @@
-# React + Vite
+# RCL CAR - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page desenvolvida para a clínica de estética automotiva premium **RCL Car**, localizada na cidade de Brodowski.
 
-Currently, two official plugins are available:
+Este projeto foi construído como requisito prático para a disciplina de **Fábrica de Software 1** do curso de Ciência da Computação na Faculdade Barão de Mauá. O objetivo central é o desenvolvimento de um produto real, focado em entregar uma interface moderna, rápida e responsiva para as necessidades de presença digital do cliente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias Utilizadas
 
-## React Compiler
+- **React**: Biblioteca para construção da interface.
+- **Tauri**: Framework para construção de aplicações desktop leves e seguras.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Instalação e Execução
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone [https://github.com/Eduardo-Malta-Pereira/rcl-car-landing-page.git](https://github.com/Eduardo-Malta-Pereira/rcl-car-landing-page.git)
+cd rcl-car-landing-page
+npm install
+npm run tauri dev
