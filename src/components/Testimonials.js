@@ -7,21 +7,18 @@ function Testimonials() {
     {
       id: 1,
       author: "Hudson Quirino",
-      time: "Há 1 mês",
       text: "Exelente profissional, trabalho bem feito e dentro do tempo combinado.",
       rating: 5
     },
     {
       id: 2,
       author: "Vitor Augusto Lima Silva",
-      time: "Há 1 mês",
       text: "Fui muito bem atendido pelo Ronaldo da RCL car. Coloquei frisos no carro e também troquei os faróis por lâmpadas LED. Serviço de qualidade, recomendo!",
       rating: 5
     },
     {
       id: 3,
       author: "Éder Oliveira",
-      time: "Há 1 ano",
       text: "Atendimento nota 10,instalação super moderna,mão de obra especializada e atualizada,serviços entregue na data marcada.",
       rating: 5
     }
@@ -46,7 +43,6 @@ function Testimonials() {
             <p className="quote">"{review.text}"</p>
             <div className="client-info">
               <h4>{review.author}</h4>
-              <span>{review.time}</span>
             </div>
           </div>
         ))}
