@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="src-tauri/icons/icon.png" alt="Better R6 Macro" width="120" />
+  
+  # 🎯 Better R6 Macro
+  
+  **Rainbow Six Siege Recoil Compensation Tool**
+  
+  *Professional-grade recoil control with per-operator configs, humanization, and cyberpunk UI.*
+  
+  [![Tauri](https://img.shields.io/badge/Tauri-2.0-FFC131?logo=tauri)](https://tauri.app)
+  [![Rust](https://img.shields.io/badge/Rust-1.77+-000000?logo=rust)](https://rust-lang.org)
+  [![License](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
+  [![Version](https://img.shields.io/badge/version-1.1.0-rose.svg)](https://github.com/Eduardo-Malta-Pereira/BetterR6Macro/releases)
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+### 🎮 Core
+- **Real-time recoil compensation** — Hold M1+M2 to activate
+- **Per-operator configs** — 38 attackers + 37 defenders with individual recoil values
+- **Humanization engine** — Realistic weapon sway, barrel drift, and hand tremor
+- **Activaction delay** — Adjustable 0-1000ms delay before recoil kicks in
 
-### `npm start`
+### 🎨 Interface
+- **Cyberpunk premium UI** — Glassmorphism with neon glow effects
+- **Fully draggable** — Move the overlay anywhere on screen
+- **Minimize & Close buttons** — Native window controls
+- **Info tooltips** — Click the `?` icons for detailed explanations
+- **Scroll wheel input** — Adjust values with mouse wheel (0.1 precision)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ⚙️ Customization
+- **F1/F2/F3 keybinds** — Activate, Deactivate, and Toggle macro
+- **M4/M5 mouse buttons** — Bind side mouse buttons
+- **Customizable recoil** — Vertical, Left, and Right forces (0-256 range)
+- **Save/Load configs** — Automatic JSON persistence in Documents folder
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛡️ Safety
+- **External overlay** — No memory reading or injection
+- **Rust backend** — Native performance with Windows API
+- **DevTools locked** — Blocked in release builds
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Installation
 
-### `npm run build`
+### Download
+Go to [Releases](https://github.com/Eduardo-Malta-Pereira/BetterR6Macro/releases) and download the latest `.msi` installer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Build from Source
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Prerequisites:**
+- [Rust](https://rustup.rs) 1.77+
+- [Node.js](https://nodejs.org) 18+
+- [Tauri CLI](https://tauri.app) (`cargo install tauri-cli`)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/Eduardo-Malta-Pereira/BetterR6Macro.git
+cd BetterR6Macro
+cargo tauri build
