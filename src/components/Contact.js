@@ -25,7 +25,14 @@ function Contact() {
               <div className="icon-box"><Phone color="white" size={24}/></div>
               <div className="info-text">
                 <span>WhatsApp</span>
-                <strong>(16) 99167-4717</strong>
+                <a 
+                  href={`https://wa.me/${whatsappNumber}?text=${message}`} 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  style={{textDecoration: 'none', color: 'inherit'}}
+                >
+                  <strong>(16) 99167-4717</strong>
+                </a>
               </div>
             </div>
 
