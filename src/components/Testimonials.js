@@ -31,14 +31,7 @@ function Testimonials() {
       
       <div className="testimonials-grid">
         {googleReviews.map((review) => (
-          <a 
-            href="https://www.google.com/maps/place/RCL+car/@-21.0008676,-47.6558084,17z/data=!4m8!3m7!1s0x94b9ef82b0ca9811:0xa6f6ee09a18daf92!8m2!3d-21.0008676!4d-47.6558084!9m1!1b1!16s%2Fg%2F11mvz_v06g?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D" 
-            target="_blank" 
-            rel="noreferrer" 
-            className="testimonial-card" 
-            key={review.id}
-            style={{ textDecoration: 'none', color: 'inherit', display: 'block', cursor: 'pointer' }}
-          >
+          <div className="testimonial-card" key={review.id}>
             <div className="stars" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
               <div style={{ display: 'flex', gap: '4px' }}>
                 {[...Array(review.rating)].map((_, i) => (
@@ -51,8 +44,19 @@ function Testimonials() {
             <div className="client-info">
               <h4>{review.author}</h4>
             </div>
-          </a>
+          </div>
         ))}
+      </div>
+
+      <div style={{ marginTop: '3rem' }}>
+        <a 
+          href="https://www.google.com/maps/place/RCL+car/@-21.0008676,-47.6558084,17z/data=!4m8!3m7!1s0x94b9ef82b0ca9811:0xa6f6ee09a18daf92!8m2!3d-21.0008676!4d-47.6558084!9m1!1b1!16s%2Fg%2F11mvz_v06g?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D" 
+          target="_blank" 
+          rel="noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          <button className="btn-red">Ver Mais</button>
+        </a>
       </div>
     </section>
   );
