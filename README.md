@@ -1,61 +1,34 @@
-<div align="center">
-  <img src="src-tauri/icons/icon.png" alt="Better R6 Macro" width="120" />
-  
-  # 🎯 Better R6 Macro
-  
-  **Rainbow Six Siege Recoil Compensation Tool**
-  
-  *Professional-grade recoil control with per-operator configs, humanization, and cyberpunk UI.*
-  
-  [![Tauri](https://img.shields.io/badge/Tauri-2.0-FFC131?logo=tauri)](https://tauri.app)
-  [![Rust](https://img.shields.io/badge/Rust-1.77+-000000?logo=rust)](https://rust-lang.org)
-  [![License](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
-  [![Version](https://img.shields.io/badge/version-1.1.0-rose.svg)](https://github.com/Eduardo-Malta-Pereira/BetterR6Macro/releases)
-</div>
-
 ---
 
-## ✨ Features
+## 📖 Sobre o Projeto
 
-### 🎮 Core
-- **Real-time recoil compensation** — Hold M1+M2 to activate
-- **Per-operator configs** — 38 attackers + 37 defenders with individual recoil values
-- **Humanization engine** — Realistic weapon sway, barrel drift, and hand tremor
-- **Activaction delay** — Adjustable 0-1000ms delay before recoil kicks in
+O **RCL CAR** é uma landing page moderna e responsiva, projetada para transmitir a sofisticação, confiança e a alta qualidade de um centro de estética e manutenção automotiva premium. A interface foi construída para garantir uma navegação fluida e destacar os serviços prestados.
 
-### 🎨 Interface
-- **Cyberpunk premium UI** — Glassmorphism with neon glow effects
-- **Fully draggable** — Move the overlay anywhere on screen
-- **Minimize & Close buttons** — Native window controls
-- **Info tooltips** — Click the `?` icons for detailed explanations
-- **Scroll wheel input** — Adjust values with mouse wheel (0.1 precision)
+Projeto desenvolvido como parte das atividades da disciplina de Fábrica de Software 1.
 
-### ⚙️ Customization
-- **F1/F2/F3 keybinds** — Activate, Deactivate, and Toggle macro
-- **M4/M5 mouse buttons** — Bind side mouse buttons
-- **Customizable recoil** — Vertical, Left, and Right forces (0-256 range)
-- **Save/Load configs** — Automatic JSON persistence in Documents folder
+## 🛠️ Tecnologias
 
-### 🛡️ Safety
-- **External overlay** — No memory reading or injection
-- **Rust backend** — Native performance with Windows API
-- **DevTools locked** — Blocked in release builds
+A aplicação foi estruturada focando em alta performance, componentização e modularidade, utilizando as seguintes ferramentas:
 
----
+* **React**
+* **Vite**
+* **Tauri**
 
-## 🚀 Installation
+## ⚙️ Pré-requisitos
 
-### Download
-Go to [Releases](https://github.com/Eduardo-Malta-Pereira/BetterR6Macro/releases) and download the latest `.msi` installer.
+Para rodar o projeto localmente, certifique-se de ter as ferramentas básicas do ambiente de desenvolvimento instaladas no seu sistema:
 
-### Build from Source
+* Node.js
+* Rust
 
-**Prerequisites:**
-- [Rust](https://rustup.rs) 1.77+
-- [Node.js](https://nodejs.org) 18+
-- [Tauri CLI](https://tauri.app) (`cargo install tauri-cli`)
+## 🚀 Instalação e Execução
+
+Clone o repositório e instale as dependências para iniciar o ambiente de desenvolvimento.
 
 ```bash
-git clone https://github.com/Eduardo-Malta-Pereira/BetterR6Macro.git
-cd BetterR6Macro
-cargo tauri build
+git clone https://github.com/seu-usuario/rcl-car.git
+cd rcl-car
+npm install
+npm run tauri dev
+
+```
