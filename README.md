@@ -1,34 +1,44 @@
+<div align="center">
+
+# RCL Car — Landing Page
+
+**Landing page para estética automotiva premium**
+
+*Site institucional desenvolvido em React com galeria de serviços, depoimentos, seção sobre e formulário de contato.*
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+</div>
+
 ---
 
-## 📖 Sobre o Projeto
+## Seções
 
-O **RCL CAR** é uma landing page moderna e responsiva, projetada para transmitir a sofisticação, confiança e a alta qualidade de um centro de estética e manutenção automotiva premium. A interface foi construída para garantir uma navegação fluida e destacar os serviços prestados.
+| Seção | Conteúdo |
+|---|---|
+| **Hero** | Banner principal com chamada para ação |
+| **Serviços** | Cards com os serviços oferecidos (polimento, vinil, proteção, etc.) |
+| **Galeria** | Fotos dos trabalhos realizados |
+| **Sobre** | História e diferenciais da empresa |
+| **Depoimentos** | Avaliações de clientes |
+| **Contato** | Formulário e informações de contato |
 
-Projeto desenvolvido como parte das atividades da disciplina de Fábrica de Software 1.
+---
 
-## 🛠️ Tecnologias
-
-A aplicação foi estruturada focando em alta performance, componentização e modularidade, utilizando as seguintes ferramentas:
-
-* **React**
-* **Vite**
-* **Tauri**
-
-## ⚙️ Pré-requisitos
-
-Para rodar o projeto localmente, certifique-se de ter as ferramentas básicas do ambiente de desenvolvimento instaladas no seu sistema:
-
-* Node.js
-* Rust
-
-## 🚀 Instalação e Execução
-
-Clone o repositório e instale as dependências para iniciar o ambiente de desenvolvimento.
+## Como rodar
 
 ```bash
-git clone https://github.com/seu-usuario/rcl-car.git
-cd rcl-car
 npm install
-npm run tauri dev
+npm start
+```
 
+Acesse `http://localhost:3000`
+
+---
+
+## Build para produção
+
+```bash
+npm run build
 ```
